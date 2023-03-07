@@ -5,9 +5,7 @@
     const Main = () => {
 
 
-      const [movies,setMovies] = useState([])
-      const [display, setDisplay] = useState(false)
-      
+      const [movies,setMovies] = useState([])      
       const movie = movies[Math.floor(Math.random() * movies.length)]
       console.log(movie)
   
@@ -32,11 +30,7 @@
           return str
         }
       }
-
-
-      return (
-    
-        
+      return (    
           <div className='w-full h-[550px] text-white'>
           <div className="w-full h-full">
             <div className='absolute w-full h-[550px] bg-gradient-to-r from-black
