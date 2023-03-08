@@ -20,7 +20,7 @@ function App() {
     <>
         <Navbar  />
         <Routes>
-          <Route path="/" element ={<Home/>} />
+          <Route path="/mymovie-app" element ={<Home/>} />
           <Route path="/popular"  element ={<Popular
             title="Popular" fetchURL={requests.requestPopular}/> }  />
 
@@ -41,4 +41,3 @@ function App() {
 }
 
 export default App;
- 
